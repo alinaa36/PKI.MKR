@@ -1,0 +1,23 @@
+.modal-container {
+    position: fixed; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #663344;
+    background-color: #ffe6f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 250px;
+    padding: 2%;
+    color: #663344;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+button {
+    background-color: #cc6699;
+}

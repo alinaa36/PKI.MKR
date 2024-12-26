@@ -1,0 +1,41 @@
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #663344;
+    color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  
+
+  .logout-button {
+    background-color: #ffe6f0;
+    color: #663344;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #f5c0d1;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  .account-icon {
+    color: #f5c0d1;
+    cursor: pointer;
+    transform: scale(2.2);
+  }
+  
+  .account-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
